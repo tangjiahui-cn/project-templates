@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "rimraf dist && rollup -c build/rollup.config.js"
+    "build": "rimraf dist && rollup -c build/rollup.config.js",
+    "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "antd": "4.21.0",

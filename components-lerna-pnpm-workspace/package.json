@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run dev --scope @monorepo/dev",
+    "build": "lerna run build --scope @monorepo/dev",
+    "build-common": "lerna run build --scope @monorepo/common",
+    "build-components": "lerna run build --scope @monorepo/components",
+    "clean": "lerna clean -y && rimraf ./node_modules",
+    "postinstall": "pnpm build-common && pnpm build-components"
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1",
+    "rimraf": "^4.1.2"
+  }
+}

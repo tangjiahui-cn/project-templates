@@ -13,3 +13,7 @@ export function test () {
 export function hello () {
     return "hello"
 }
+
+export function helloVite () {
+    return 'hello vite'
+}

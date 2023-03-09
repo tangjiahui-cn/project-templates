@@ -6,6 +6,8 @@
 pnpm instal
 
 pnpm dev
+
+pnpm dev-vite
 ```
 
 ## 二、打包

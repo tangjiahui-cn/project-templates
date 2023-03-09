@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "dev": "lerna run dev --scope @monorepo/dev",
+    "dev-vite": "lerna run dev --scope @monorepo/dev-vite",
     "build": "lerna run build --scope @monorepo/dev",
     "build-common": "lerna run build --scope @monorepo/common",
     "build-components": "lerna run build --scope @monorepo/components",

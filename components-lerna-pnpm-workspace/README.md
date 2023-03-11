@@ -3,7 +3,7 @@
 
 ## 一、如何运行
 ```shell
-pnpm instal
+pnpm install
 
 pnpm dev
 
